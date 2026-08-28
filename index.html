@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>Maryam Nisar — Product Manager | Digital Strategy | Content & Media</title>
+    <meta name="description" content="Portfolio of Maryam Nisar — Product Manager, Digital Strategist, and Content & Media professional with 5+ years of experience.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════════════════════
+     NAVIGATION
+     ══════════════════════════════════════════════════════════════ -->
+<nav id="navbar">
+    <a href="#landing" class="logo">MN</a>
+    <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="mobile-menu" id="mobileMenu" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+</nav>
+
+<!-- Mobile Nav Overlay -->
+<div class="mobile-nav-overlay" id="mobileNavOverlay">
+    <ul class="mobile-nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════════
+     PAGE 1 — LANDING
+     ══════════════════════════════════════════════════════════════ -->
+<section id="landing" class="hero">
+    <div class="hero-bloom bloom-1"></div>
+    <div class="hero-bloom bloom-2"></div>
+    <div class="hero-content">
+        <div class="hero-logo-initials">MN</div>
+        <h1 class="hero-title">Maryam Nisar</h1>
+        <p class="hero-designations">Product Manager &nbsp;|&nbsp; Digital Strategy &nbsp;|&nbsp; Content &amp; Media</p>
+        <p class="hero-intro">
+            I'm a product and digital strategy professional with 5+ years of experience building digital products and experiences across AI, healthtech, legal-tech, OTT, telecom, media, and education. I specialize in turning ambiguous ideas into practical product strategies — owning roadmaps, leading cross-functional teams, and driving growth through data-led decision making. My work spans product strategy for AI platforms like Kacheri.AI and Adalti Nizam KP, growth and analytics for OTT platforms reaching hundreds of thousands of monthly users, and content strategy for UNICEF and government campaigns across Pakistan and Afghanistan. I bring together product thinking, creativity, and stakeholder leadership to build experiences that solve real problems for users and businesses alike. Currently leading product strategy and a 20+ person cross-functional team at Lafz Digital — let's talk about what we could build together.
+        </p>
+        <div class="hero-cta anim-slide-up">
+            <a href="#about" class="btn btn-primary">Learn More About Me</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+        <div class="hero-socials">
+            <a href="https://github.com/mnisar2010" target="_blank" rel="noopener" aria-label="GitHub" class="social-icon social-pop" style="--pop-delay: 0.1s">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            </a>
+            <a href="https://linkedin.com/in/maryam-nisar" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-icon social-pop" style="--pop-delay: 0.3s">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a href="mailto:nisar.maryam.97@gmail.com" aria-label="Email" class="social-icon social-pop" style="--pop-delay: 0.5s">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════
+     PAGE 2 — ABOUT ME
+     ══════════════════════════════════════════════════════════════ -->
+<section id="about" class="about-section">
+    <div class="section-header">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Who I Am</h2>
+    </div>
+    <div class="about-grid">
+        <div class="about-photo-col anim-slide-left">
+            <div class="headshot-frame">
+                <img src="profile.jpg" alt="Maryam Nisar" loading="lazy">
+            </div>
+            <div class="about-nav-buttons">
+                <a href="#experience" class="about-nav-btn anim-stagger-up" style="--stagger: 0s">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/></svg>
+                    Work Experience
+                </a>
+                <a href="#education" class="about-nav-btn anim-stagger-up" style="--stagger: 0.1s">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.1 2.7 3 6 3s6-1.9 6-3v-5"/></svg>
+                    Education
+                </a>
+                <a href="#projects" class="about-nav-btn anim-stagger-up" style="--stagger: 0.2s">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg>
+                    Projects
+                </a>
+                <a href="#skills" class="about-nav-btn anim-stagger-up" style="--stagger: 0.3s">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    Skills
+                </a>
+            </div>
+        </div>
+        <div class="about-text-col">
+            <p class="about-summary">
+                I'm a curious problem-solver who enjoys working at the intersection of people, technology, and creativity. Over the past 5+ years, I've moved between content, digital strategy, and product roles — currently serving as Project Head at Lafz Digital, where I own product strategy and lead a 20+ person cross-functional team across editorial, production, design, and social. Before that, I drove product and growth strategy for OTT platforms like Deikho and ZongTV, and content strategy for AI products including WellNest, Kacheri.AI, and KP Courts. My toolkit includes Firebase and Google Analytics, A/B testing, OneSignal, CMS platforms, and agile product workflows, backed by an MSc in Psychology from the International Islamic University, Islamabad, which shapes how I think about user behavior and audience insight. What sets me apart is range: I've shipped everything from multilingual IVR services reaching 6.5M+ users to AI legal-tech platforms, always grounding product decisions in data and real user needs. I like building things that are both strategically sound and genuinely useful.
+            </p>
+            <div class="mission-vision-cards">
+                <div class="mv-card anim-flip" style="--flip-delay: 0s">
+                    <div class="mv-card-inner">
+                        <div class="mv-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 000 20M12 2a14.5 14.5 0 010 20M2 12h20"/></svg>
+                        </div>
+                        <h3>Mission</h3>
+                        <p>To build digital products and experiences that turn complex problems into practical, data-driven solutions — creating real value for users and the businesses that serve them.</p>
+                    </div>
+                </div>
+                <div class="mv-card anim-flip" style="--flip-delay: 0.2s">
+                    <div class="mv-card-inner">
+                        <div class="mv-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                        </div>
+                        <h3>Vision</h3>
+                        <p>To lead the development of accessible, AI-enabled products that make technology, information, and opportunity reachable for underserved audiences across Pakistan and beyond.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════
+     PAGE 3 — WORK EXPERIENCE
+     ══════════════════════════════════════════════════════════════ -->
+<section id="experience" class="experience-section">
+    <div class="section-header">
+        <span class="section-tag">Career</span>
+        <h2 class="section-title">Work Experience</h2>
+    </div>
+
+    <!-- Card 1 -->
+    <div class="exp-card anim-exp-left">
+        <div class="exp-card-left">
+            <div class="exp-company-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/></svg>
+            </div>
+            <h3 class="exp-company">Lafz Digital</h3>
+            <p class="exp-org">(Ideation)</p>
+            <div class="exp-meta">
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Islamabad, Pakistan</span>
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg> Apr 2025 – Present</span>
+                <span class="exp-type-badge">Full-time</span>
+            </div>
+        </div>
+        <div class="exp-card-right">
+            <h3 class="exp-role">Project Head</h3>
+            <div class="exp-section-label">Key Responsibilities</div>
+            <ul class="exp-bullets">
+                <li class="anim-bullet">Lead a 20+ person cross-functional team across editorial, production, design, and social media</li>
+                <li class="anim-bullet">Own Lafz Digital's product strategy and roadmap across web and mobile</li>
+                <li class="anim-bullet">Oversee end-to-end digital product and content execution across web, mobile, YouTube, Instagram, and Facebook</li>
+                <li class="anim-bullet">Coordinate technical, editorial, production, and leadership stakeholders</li>
+            </ul>
+            <div class="exp-section-label">Key Achievements</div>
+            <ul class="exp-bullets">
+                <li class="anim-bullet">Manage workflows, KPIs, and resource allocation across a 20+ member team running two-shift operations</li>
+                <li class="anim-bullet">Present product decks, strategic updates, and execution plans directly to senior leadership</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="exp-card anim-exp-right">
+        <div class="exp-card-left">
+            <div class="exp-company-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            </div>
+            <h3 class="exp-company">Ideation</h3>
+            <p class="exp-org">&nbsp;</p>
+            <div class="exp-meta">
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Islamabad, Pakistan</span>
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg> Nov 2024 – Present</span>
+                <span class="exp-type-badge">Full-time</span>
+            </div>
+        </div>
+        <div class="exp-card-right">
+            <h3 class="exp-role">Content Strategist &amp; Product Executive</h3>
+            <div class="exp-section-label">Key Responsibilities</div>
+            <ul class="exp-bullets">
+                <li class="anim-bullet">Contributed to product strategy for AI products: WellNest (healthtech), Kacheri.AI (legal-tech), KP Courts (e-judicial)</li>
+                <li class="anim-bullet">Led content/product roadmap for OTT portfolio including Deikho, ZongTV, Qabeelah, Trendin, Whatsin, Goonj</li>
+                <li class="anim-bullet">Monitored KPIs via Firebase and Google Analytics; ran A/B tests and OneSignal push experiments across 10+ live products</li>
+                <li class="anim-bullet">Collaborated with R&amp;D, technology, and creative teams on new product concepts</li>
+            </ul>
+            <div class="exp-section-label">Key Achievements</div>
+            <ul class="exp-bullets">
+                <li class="anim-bullet">Grew and managed Deikho to 716K MAU with 9m46s average session length</li>
+                <li class="anim-bullet">Executed push campaigns reaching 3M+ users with a 5.8% CTR</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="exp-card anim-exp-left">
+        <div class="exp-card-left">
+            <div class="exp-company-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            </div>
+            <h3 class="exp-company">Switch</h3>
+            <p class="exp-org">&nbsp;</p>
+            <div class="exp-meta">
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Islamabad, Pakistan</span>
+                <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg> Jan 2021 – Oct 2024</span>
+                <span class="exp-type-badge">Full-time</span>
+            </div>
+        </div>
+        <div class="exp-card-right">
+            <h3 class="exp-role">Content &amp; Digital Strategy Specialist</h3>
+            <div class="exp-section-label">Key Responsibilities</div>
+            <ul class="exp-bullets">
+                <li class="anim-bullet">Led content development across 15+ telecom VAS/IVR services for Jazz, Telenor, Ufone, and Mobilink</li>
+                <li class="anim-bullet">Spearheaded digital product development and growth for Zoya Health App, Pakistan's women's health platform</li>
+                <li class="anim-bullet">Drove research, content strategy, and execution for an educational video platform</li>
+                <li class="anim-bullet">Delivered content for high-impact UNICEF, government, and international development campaigns across Pakistan and Afghanistan</li>
+            </ul>
+            <div class="exp-section-label">Key Achievements</div>
+            <ul class="exp-bullets">
+                <li class="anim-bullet">Managed content strategy, app QA, OneSignal campaigns, and Firebase analytics for the Zoya Health App</li>
+                <li class="anim-bullet">Coordinated end-to-end YouTube strategy, SEO, and performance optimization for an educational video platform</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════
+     PAGE 4 — EDUCATION
+     ══════════════════════════════════════════════════════════════ -->
+<section id="education" class="education-section">
+    <div class="section-header">
+        <span class="section-tag">Education</span>
+        <h2 class="section-title">Academic Background</h2>
+    </div>
+    <div class="edu-card anim-edu-drop">
+        <div class="edu-card-left">
+            <div class="edu-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.1 2.7 3 6 3s6-1.9 6-3v-5"/></svg>
+            </div>
+            <h3>MSc Psychology</h3>
+            <p class="edu-institution">International Islamic University, Islamabad</p>
+            <div class="edu-meta">
+                <span>Graduated 2019</span>
+                <span class="exp-type-badge">Full-time</span>
+            </div>
+        </div>
+        <div class="edu-card-right">
+            <div class="exp-section-label">Key Highlights</div>
+            <ul class="edu-highlights">
+                <li class="anim-typewriter">Focus on understanding human behavior, decision-making, and audience psychology</li>
+                <li class="anim-typewriter">Foundation directly applied to user research, audience insights, and data-driven product decisions</li>
+                <li class="anim-typewriter">Coursework informing content strategy, UX thinking, and stakeholder communication</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════
+     PAGE 5 — PROJECTS & PRODUCTS
+     ══════════════════════════════════════════════════════════════ -->
+<section id="projects" class="projects-section">
+    <div class="section-header">
+        <span class="section-tag">Portfolio</span>
+        <h2 class="section-title">Projects &amp; Products</h2>
+    </div>
+
+    <!-- ── GROUP: Ideation ─────────────────────────────────────── -->
+    <div class="project-group-label">
+        <span class="group-badge">Ideation</span>
+        <span class="group-line"></span>
+        <span class="group-text">Product &amp; Platform Portfolio</span>
+    </div>
+
+    <!-- 01 — Deikho -->
+    <div class="project-card">
+        <div class="project-left anim-project-panel">
+            <span class="project-number">01</span>
+            <h3>Deikho</h3>
+            <p class="project-subtitle">OTT Platform | Jazz</p>
+            <div class="project-type-badge">Product &amp; Content Strategy</div>
+            <p class="project-duration">716K MAU</p>
+        </div>
+        <div class="project-right anim-project-content">
+            <p class="project-desc">Managed Firebase analytics, OneSignal push campaigns, A/B testing, and product/content performance for a premium Pakistani OTT platform. Led production of Deikho Originals and worked on UI/UX improvements across web and mobile to strengthen engagement and content discovery.</p>
+            <div class="tech-tags">
+                <span class="tech-pill anim-elastic">Firebase Analytics</span>
+                <span class="tech-pill anim-elastic">OneSignal</span>
+                <span class="tech-pill anim-elastic">A/B Testing</span>
+                <span class="tech-pill anim-elastic">CMS</span>
+                <span class="tech-pill anim-elastic">UI/UX</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 02 — ZongTV -->
+    <div class="project-card">
+        <div class="project-left anim-project-panel">
+            <span class="project-number">02</span>
+            <h3>ZongTV</h3>
+            <p class="project-subtitle">OTT / Live TV Platform | Zong</p>
+            <div class="project-type-badge">Product &amp; Content Strategy</div>
+            <p class="project-duration">450K MAU · 40+ Live Channels</p>
+        </div>
+        <div class="project-right anim-project-content">
+            <p class="project-desc">Managed Firebase analytics, behavior-based OneSignal campaigns, A/B testing, and QA across app and web. Contributed to product roadmap and content consolidation initiatives, including integration of additional lifestyle/content verticals into ZongTV; average session duration increased from 2m05s to 2m39s.</p>
+            <div class="tech-tags">
+                <span class="tech-pill anim-elastic">Firebase Analytics</span>
+                <span class="tech-pill anim-elastic">OneSignal</span>
+                <span class="tech-pill anim-elastic">A/B Testing</span>
+                <span class="tech-pill anim-elastic">QA</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 03 — Trendin -->
+    <div class="project-card">
+        <div class="project-left anim-project-panel">
+            <span class="project-number">03</span>
+            <h3>Trendin</h3>
+            <p class="project-subtitle">Lifestyle OTT | Telenor</p>
+            <div class="project-type-badge">Content &amp; Engagement Strategy</div>
+        </div>
+        <div class="project-right anim-project-content">
+            <p class="project-desc">Worked on a lifestyle OTT covering fashion, food, fitness and entertainment, with iOS and Direct Carrier Billing integration. Led OneSignal campaigns, Firebase analysis, and production of Trendin Original shows, using content and engagement insights to support platform growth.</p>
+            <div class="tech-tags">
+                <span class="tech-pill anim-elastic">OneSignal</span>
+                <span class="tech-pill anim-elastic">Firebase Analytics</span>
+                <span class="tech-pill anim-elastic">iOS</span>
+                <span class="tech-pill anim-elastic">DCB Integration</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 04 — Whatsin -->
+    <div class="project-card">
+        <div class="project-left anim-project-panel">
+            <span class="project-number">04</span>
+            <h3>Whatsin</h3>
+            <p class="project-subtitle">Lifestyle OTT | Telenor</p>
+            <div class="project-type-badge">Content Strategy &amp; UX</div>
+        </div>
+        <div class="project-right anim-project-content">
+            <p class="project-desc">Managed content strategy, prioritization and OneSignal engagement campaigns while contributing to a refreshed platform design. Coordinated smooth integration of outsourced content into the platform and worked on improving overall content presentation and user experience.</p>
+            <div class="tech-tags">
+                <span class="tech-pill anim-elastic">OneSignal</span>
+                <span class="tech-pill anim-elastic">Content Strategy</span>
+                <span class="tech-pill anim-elastic">Platform Design</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 05 — Digital Signage -->
+    <div class="project-card">
+        <div class="project-left anim-project-panel">
+            <span class="project-number">05</span>
+            <h3>Digital Signage</h3>
+            <p class="project-subtitle">Enterprise Content Management | Jazz Business</p>
+            <div class="project-type-badge">Enterprise Product</div>
+        </div>
+        <div class="project-right anim-project-content">
+            <p class="project-desc">Worked on an enterprise platform for centralized multi-screen content broadcasting and management. Led requirements gathering, translated client needs into development requirements, coordinated with technical teams, and conducted enterprise testing to ensure successful delivery.</p>
+            <div class="tech-tags">
+                <span class="tech-pill anim-elastic">Requirements Gathering</span>
+                <span class="tech-pill anim-elastic">Enterprise Testing</span>
+                <span class="tech-pill anim-elastic">Content Management</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 06 — Mobile Akhbaar -->
+    <div class="project-card">
+        <div class="project-left anim-project-panel">
+            <span class="project-number">06</span>
+            <h3>Mobile Akhbaar</h3>
+            <p class="project-subtitle">Digital News Platform | Ufone</p>
+            <div class="project-type-badge">Content &amp; Product Management</div>
+        </div>
+        <div class="project-right anim-project-content">
+            <p class="project-desc">Supported the launch and ongoing management of a real-time news aggregation platform covering politics, sports, entertainment and technology. Led content strategy, daily content production, platform content management and QA/testing, while coordinating development requirements.</p>
+            <div class="tech-tags">
+                <span class="tech-pill anim-elastic">Content Strategy</span>
+                <span class="tech-pill anim-elastic">QA/Testing</span>
+                <span class="tech-pill anim-elastic">News Aggregation</span>
+                <span class="tech-pill anim-elastic">CMS</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 07 — AssistMe AI -->
+    <div class="project-card">
+        <div class="project-left anim-project-panel">
+            <span class="project-number">07</span>
+            <h3>AssistMe AI</h3>
+            <p class="project-subtitle">Multilingual AI Platform | Zong</p>
+            <div class="project-type-badge">AI Product Design</div>
+        </div>
+        <div class="project-right anim-project-content">
+            <p class="project-desc">Worked on the product design of a multilingual AI platform delivering AI access through App, Web, IVR, SMS and USSD in five regional languages. Defined features and USPs — including AI chat, translation, Speak Local, RizzGPT and smart scheduling — tested feature feasibility, coordinated with technical, development and UI/UX teams, translated client requirements into product features, and led app/web QA.</p>
+            <div class="tech-tags">
+                <span class="tech-pill anim-elastic">AI Chat</span>
+                <span class="tech-pill anim-elastic">IVR/SMS/USSD</span>
+                <span class="tech-pill anim-elastic">Multilingual NLP</span>
+                <span class="tech-pill anim-elastic">App/Web QA</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 08 — Kacheri.AI -->
+    <div class="project-card">
+        <div class="project-left anim-project-panel">
+            <span class="project-number">08</span>
+            <h3>Kacheri.AI</h3>
+            <p class="project-subtitle">AI Legal-Tech Platform</p>
+            <div class="project-type-badge">Product Strategy</div>
+            <p class="project-duration">Pitch-ready product</p>
+        </div>
+        <div class="project-right anim-project-content">
+            <p class="project-desc">Worked on an AI-powered legal-tech platform designed to simplify access to Pakistan's legal ecosystem through AI legal research, case-law and precedent retrieval, document generation, legal-text analysis, a Pakistani legal database, and access to legal professionals. Contributed to shaping the product proposition, feature set and overall platform direction for commercial pitching.</p>
+            <div class="tech-tags">
+                <span class="tech-pill anim-elastic">AI Legal Research</span>
+                <span class="tech-pill anim-elastic">Document Generation</span>
+                <span class="tech-pill anim-elastic">Legal Database</span>
+                <span class="tech-pill anim-elastic">Product Strategy</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 09 — Adalti Nizam KP -->
+    <div class="project-card">
+        <div class="project-left anim-project-panel">
+            <span class="project-number">09</span>
+            <h3>Adalti Nizam KP</h3>
+            <p class="project-subtitle">AI-Powered E-Judicial Platform</p>
+            <div class="project-type-badge">Product Framework</div>
+            <p class="project-duration">Proposed for KP Judiciary</p>
+        </div>
+        <div class="project-right anim-project-content">
+            <p class="project-desc">Worked on the product framework for a unified digital justice ecosystem connecting judges, lawyers and citizens through e-filing, virtual hearings, case tracking and digital court services. Designed AI-led capabilities including smart case scheduling, petition summarization, precedent retrieval, legal research and intelligent case management to improve transparency, efficiency and accessibility.</p>
+            <div class="tech-tags">
+                <span class="tech-pill anim-elastic">AI Case Management</span>
+                <span class="tech-pill anim-elastic">E-Filing Systems</span>
+                <span class="tech-pill anim-elastic">Virtual Hearings</span>
+                <span class="tech-pill anim-elastic">Product Framework</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ── GROUP: VAS — IVR / SMS Products ─────────────────────── -->
+    <div class="project-group-label">
+        <span class="group-badge">VAS</span>
+        <span class="group-line"></span>
+        <span class="group-text">IVR / SMS Products</span>
+    </div>
+
+    <!-- 10 — Telenor / Jazz Regional Services -->
+    <div class="project-card">
+        <div class="project-left anim-project-panel">
+            <span class="project-number">10</span>
+            <h3>Regional IVR Services</h3>
+            <p class="project-subtitle">Telenor / Jazz | Multilingual IVR</p>
+            <div class="project-type-badge">VAS Content &amp; Operations</div>
+            <p class="project-duration">100K+ Subscriber Base</p>
+        </div>
+        <div class="project-right anim-project-content">
+            <p class="project-desc">Managed IVR services including Khabarnama, Kahani Ghar, and Bachon Ki Duniya (BKD).</p>
+            <ul class="exp-bullets" style="margin-bottom: 1rem;">
+                <li class="anim-bullet">Led content production from scripting and audio recording to approvals, publishing and QA, while planning content calendars and tracking category-level engagement</li>
+                <li class="anim-bullet">Managed multilingual audio content across Urdu, Punjabi, Pashto, Sindhi, Saraiki and Balochi</li>
+                <li class="anim-bullet">Managed 100K OBD (Outbound Dialing) and IBD (Inbound Dialing) campaigns daily across all three services</li>
+                <li class="anim-bullet">Monitored average engagement time, call behavior and content performance by service/category to optimize programming and campaign decisions</li>
+            </ul>
+            <div class="tech-tags">
+                <span class="tech-pill anim-elastic">IVR</span>
+                <span class="tech-pill anim-elastic">OBD/IBD Campaigns</span>
+                <span class="tech-pill anim-elastic">Multilingual (6 Languages)</span>
+                <span class="tech-pill anim-elastic">Content Production</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ── GROUP: Switch ───────────────────────────────────────── -->
+    <div class="project-group-label">
+        <span class="group-badge">Switch</span>
+        <span class="group-line"></span>
+        <span class="group-text">Product, Digital &amp; VAS Experience</span>
+    </div>
+
+    <!-- 11 — Zoya -->
+    <div class="project-card">
+        <div class="project-left anim-project-panel">
+            <span class="project-number">11</span>
+            <h3>Zoya</h3>
+            <p class="project-subtitle">Multilingual Digital Health &amp; Wellness App</p>
+            <div class="project-type-badge">Digital Product &amp; Content Strategy</div>
+            <p class="project-duration">2021 – 2024</p>
+        </div>
+        <div class="project-right anim-project-content">
+            <ul class="exp-bullets" style="margin-bottom: 1rem;">
+                <li class="anim-bullet">Managed end-to-end content operations across the Zoya app, CMS, Instagram and Facebook, including publishing, daily QA, bug identification and coordination with developers for fixes</li>
+                <li class="anim-bullet">Initiated video content within the app and a text-to-audio feature to make health information more accessible</li>
+                <li class="anim-bullet">Introduced functionality to convert health blogs from English and Urdu into Roman Urdu, improving accessibility for digitally native users</li>
+                <li class="anim-bullet">Contributed to Phase 2 product strategy and framework design, including an AI health chatbot for immediate assistance</li>
+                <li class="anim-bullet">Designed the escalation journey for serious health concerns, enabling chatbot users to connect with a doctor marketplace and book appointments</li>
+            </ul>
+            <div class="tech-tags">
+                <span class="tech-pill anim-elastic">CMS</span>
+                <span class="tech-pill anim-elastic">Firebase Analytics</span>
+                <span class="tech-pill anim-elastic">OneSignal</span>
+                <span class="tech-pill anim-elastic">AI Chatbot</span>
+                <span class="tech-pill anim-elastic">A/B Testing</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 12 — Digital Channels -->
+    <div class="project-card">
+        <div class="project-left anim-project-panel">
+            <span class="project-number">12</span>
+            <h3>Digital Channels</h3>
+            <p class="project-subtitle">YouTube &amp; Social Platforms</p>
+            <div class="project-type-badge">Digital Content &amp; SEO</div>
+        </div>
+        <div class="project-right anim-project-content">
+            <p class="project-desc" style="margin-bottom: 0.8rem;"><strong style="color: var(--yellow-electric);">Zoya YouTube Channel</strong> — Channel focused on awareness, healthcare education and breaking cultural taboos around women's health.</p>
+            <p class="project-desc" style="margin-bottom: 1rem;"><strong style="color: var(--yellow-electric);">Seekhtay Jao</strong> — A one-stop digital learning platform for students from Grade 1–12, offering interactive video lectures, educational activities, experiments and curriculum-focused learning content designed to make education more engaging and accessible.</p>
+            <ul class="exp-bullets" style="margin-bottom: 1rem;">
+                <li class="anim-bullet">Managed digital content operations including video QA, content management, publishing and scheduling, SEO optimization and performance analytics</li>
+                <li class="anim-bullet">Oversaw content quality and discoverability across digital channels and used analytics to monitor content performance and audience engagement</li>
+            </ul>
+            <div class="tech-tags">
+                <span class="tech-pill anim-elastic">YouTube Strategy</span>
+                <span class="tech-pill anim-elastic">SEO</span>
+                <span class="tech-pill anim-elastic">Content Management</span>
+                <span class="tech-pill anim-elastic">Performance Analytics</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 13 — VAS Portfolio -->
+    <div class="project-card">
+        <div class="project-left anim-project-panel">
+            <span class="project-number">13</span>
+            <h3>VAS Portfolio</h3>
+            <p class="project-subtitle">Mobile Services Across Pakistan</p>
+            <div class="project-type-badge">VAS &amp; Content Development</div>
+            <p class="project-duration">6.5M+ Users</p>
+        </div>
+        <div class="project-right anim-project-content">
+            <p class="project-desc">Managed and developed mobile VAS products reaching 6.5M+ users across Pakistan, delivering career, education, youth and women-focused services through SMS, IVR and mobile portals. Led multilingual service and content development across 5 languages.</p>
+
+            <div class="vas-sub-projects">
+                <div class="vas-sub-card">
+                    <h4>Mobile Education Service</h4>
+                    <ul class="exp-bullets">
+                        <li class="anim-bullet">Initiated TOEFL, SAT, GMAT and IELTS preparation content across 5 languages, expanding beyond national curriculum-based learning</li>
+                        <li class="anim-bullet">Introduced English-language learning articles and educational content through mobile channels</li>
+                    </ul>
+                </div>
+                <div class="vas-sub-card">
+                    <h4>Mobile Career Service <span class="vas-stat">3.5M+ Users</span></h4>
+                    <ul class="exp-bullets">
+                        <li class="anim-bullet">Worked on a mobile career platform delivering career guidance, job information and professional development content through SMS and IVR</li>
+                        <li class="anim-bullet">Initiated a multilingual IVR series explaining different professions and career paths, produced across 5 languages</li>
+                        <li class="anim-bullet">Introduced SMS-based Career Counselling, providing accessible career guidance directly to mobile subscribers</li>
+                        <li class="anim-bullet">Managed portal content including articles, blogs, career guidance material and ongoing service updates</li>
+                    </ul>
+                </div>
+                <div class="vas-sub-card">
+                    <h4>Mobile Youth Service <span class="vas-stat">3M+ Users</span></h4>
+                    <ul class="exp-bullets">
+                        <li class="anim-bullet">Worked on one of the company's largest youth-focused VAS platforms, reaching 3M+ users through SMS and IVR</li>
+                        <li class="anim-bullet">Managed content covering youth awareness, fashion, entertainment, health, self-development, rights education, travel and trending topics</li>
+                        <li class="anim-bullet">Supported multilingual content planning, publishing, QA and ongoing portal management across the service</li>
+                    </ul>
+                </div>
+                <div class="vas-sub-card">
+                    <h4>Mobile Women's Service</h4>
+                    <ul class="exp-bullets">
+                        <li class="anim-bullet">Initiated the "Know Your Rights" service across SMS and IVR, educating women about their legal rights in Pakistan</li>
+                        <li class="anim-bullet">Developed audio and SMS content covering women's rights, women-protection institutions, available support services and helplines</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="tech-tags" style="margin-top: 1rem;">
+                <span class="tech-pill anim-elastic">SMS</span>
+                <span class="tech-pill anim-elastic">IVR</span>
+                <span class="tech-pill anim-elastic">Mobile Portals</span>
+                <span class="tech-pill anim-elastic">Multilingual (5 Languages)</span>
+                <span class="tech-pill anim-elastic">Content Development</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ── GROUP: UNICEF Projects ──────────────────────────────── -->
+    <div class="project-group-label">
+        <span class="group-badge">UNICEF</span>
+        <span class="group-line"></span>
+        <span class="group-text">International Development Projects</span>
+    </div>
+
+    <!-- 14 — VIAMO Afghanistan -->
+    <div class="project-card">
+        <div class="project-left anim-project-panel">
+            <span class="project-number">14</span>
+            <h3>VIAMO Afghanistan</h3>
+            <p class="project-subtitle">Children's Right to Education | UNICEF</p>
+            <div class="project-type-badge">Campaign &amp; Content</div>
+        </div>
+        <div class="project-right anim-project-content">
+            <ul class="exp-bullets" style="margin-bottom: 1rem;">
+                <li class="anim-bullet">Wrote 30 short radio dramas/snippets based on provisions related to children's right to education under the Afghanistan Constitution, adapted for delivery across 6 languages</li>
+                <li class="anim-bullet">Worked directly with the UNICEF team through regular meetings and communication, managing content submissions, approvals, feedback and revisions</li>
+                <li class="anim-bullet">Translated policy and rights-based information into simple, engaging dramatic formats suitable for mass-audience radio communication</li>
+            </ul>
+            <div class="tech-tags">
+                <span class="tech-pill anim-elastic">Radio Dramas</span>
+                <span class="tech-pill anim-elastic">Multilingual (6 Languages)</span>
+                <span class="tech-pill anim-elastic">Rights-Based Content</span>
+                <span class="tech-pill anim-elastic">UNICEF</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 15 — SRHR Campaign -->
+    <div class="project-card">
+        <div class="project-left anim-project-panel">
+            <span class="project-number">15</span>
+            <h3>SRHR Campaign</h3>
+            <p class="project-subtitle">Punjab Government × UNICEF | Pakistan</p>
+            <div class="project-type-badge">Survey Design &amp; Awareness</div>
+        </div>
+        <div class="project-right anim-project-content">
+            <ul class="exp-bullets" style="margin-bottom: 1rem;">
+                <li class="anim-bullet">Developed a culturally sensitive IVR survey on Sexual and Reproductive Health and Rights (SRHR) for women in Pakistan</li>
+                <li class="anim-bullet">Designed questions to be simple, respectful and sensitive to local cultural and religious considerations, while educating women about healthy birth spacing and available support</li>
+                <li class="anim-bullet">Structured the survey to help identify geographic areas and audience segments with limited access to SRHR information, supporting data-driven awareness and outreach efforts</li>
+            </ul>
+            <div class="tech-tags">
+                <span class="tech-pill anim-elastic">IVR Survey</span>
+                <span class="tech-pill anim-elastic">SRHR</span>
+                <span class="tech-pill anim-elastic">UNICEF</span>
+                <span class="tech-pill anim-elastic">Data-Driven Outreach</span>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════
+     PAGE 6 — SKILLS
+     ══════════════════════════════════════════════════════════════ -->
+<section id="skills" class="skills-section">
+    <div class="section-header">
+        <span class="section-tag">Expertise</span>
+        <h2 class="section-title">Skills &amp; Competencies</h2>
+    </div>
+    <div class="skills-grid">
+        <!-- Product Management -->
+        <div class="skill-card anim-skill-wave" style="--wave-delay: 0s">
+            <div class="skill-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 20V10M18 20V4M6 20v-4"/></svg>
+            </div>
+            <h3>Product Management</h3>
+            <p class="skill-exp">5+ years experience</p>
+            <div class="skill-bar-group">
+                <div class="skill-item"><span class="skill-name">Product Strategy</span><span class="skill-pct" data-pct="92">0%</span><div class="skill-bar"><div class="skill-fill" data-width="92"></div></div></div>
+                <div class="skill-item"><span class="skill-name">Roadmapping & Prioritization</span><span class="skill-pct" data-pct="90">0%</span><div class="skill-bar"><div class="skill-fill" data-width="90"></div></div></div>
+                <div class="skill-item"><span class="skill-name">Stakeholder Management</span><span class="skill-pct" data-pct="90">0%</span><div class="skill-bar"><div class="skill-fill" data-width="90"></div></div></div>
+                <div class="skill-item"><span class="skill-name">Agile & Sprint Planning</span><span class="skill-pct" data-pct="85">0%</span><div class="skill-bar"><div class="skill-fill" data-width="85"></div></div></div>
+            </div>
+        </div>
+        <!-- Digital Strategy -->
+        <div class="skill-card anim-skill-wave" style="--wave-delay: 0.1s">
+            <div class="skill-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+            </div>
+            <h3>Digital Strategy &amp; Operations</h3>
+            <div class="skill-bar-group">
+                <div class="skill-item"><span class="skill-name">Digital Product Strategy</span><span class="skill-pct" data-pct="92">0%</span><div class="skill-bar"><div class="skill-fill" data-width="92"></div></div></div>
+                <div class="skill-item"><span class="skill-name">Content Strategy</span><span class="skill-pct" data-pct="90">0%</span><div class="skill-bar"><div class="skill-fill" data-width="90"></div></div></div>
+                <div class="skill-item"><span class="skill-name">Growth Strategy</span><span class="skill-pct" data-pct="88">0%</span><div class="skill-bar"><div class="skill-fill" data-width="88"></div></div></div>
+                <div class="skill-item"><span class="skill-name">Process Optimization</span><span class="skill-pct" data-pct="85">0%</span><div class="skill-bar"><div class="skill-fill" data-width="85"></div></div></div>
+            </div>
+        </div>
+        <!-- Analytics -->
+        <div class="skill-card anim-skill-wave" style="--wave-delay: 0.2s">
+            <div class="skill-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 21H3V3"/><path d="M21 7l-6 6-4-4-8 8"/></svg>
+            </div>
+            <h3>Analytics &amp; Performance</h3>
+            <div class="skill-bar-group">
+                <div class="skill-item"><span class="skill-name">Firebase Analytics</span><span class="skill-pct" data-pct="88">0%</span><div class="skill-bar"><div class="skill-fill" data-width="88"></div></div></div>
+                <div class="skill-item"><span class="skill-name">Google Analytics</span><span class="skill-pct" data-pct="88">0%</span><div class="skill-bar"><div class="skill-fill" data-width="88"></div></div></div>
+                <div class="skill-item"><span class="skill-name">A/B Testing</span><span class="skill-pct" data-pct="85">0%</span><div class="skill-bar"><div class="skill-fill" data-width="85"></div></div></div>
+                <div class="skill-item"><span class="skill-name">KPI Tracking</span><span class="skill-pct" data-pct="90">0%</span><div class="skill-bar"><div class="skill-fill" data-width="90"></div></div></div>
+            </div>
+        </div>
+        <!-- Technical & QA -->
+        <div class="skill-card anim-skill-wave" style="--wave-delay: 0.3s">
+            <div class="skill-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>
+            </div>
+            <h3>Technical &amp; QA</h3>
+            <div class="skill-bar-group">
+                <div class="skill-item"><span class="skill-name">Product QA (iOS/Android)</span><span class="skill-pct" data-pct="85">0%</span><div class="skill-bar"><div class="skill-fill" data-width="85"></div></div></div>
+                <div class="skill-item"><span class="skill-name">CMS Management</span><span class="skill-pct" data-pct="88">0%</span><div class="skill-bar"><div class="skill-fill" data-width="88"></div></div></div>
+                <div class="skill-item"><span class="skill-name">Requirements Gathering</span><span class="skill-pct" data-pct="90">0%</span><div class="skill-bar"><div class="skill-fill" data-width="90"></div></div></div>
+            </div>
+        </div>
+        <!-- Content & Growth -->
+        <div class="skill-card anim-skill-wave" style="--wave-delay: 0.4s">
+            <div class="skill-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+            </div>
+            <h3>Content &amp; Growth</h3>
+            <div class="skill-bar-group">
+                <div class="skill-item"><span class="skill-name">SEO</span><span class="skill-pct" data-pct="85">0%</span><div class="skill-bar"><div class="skill-fill" data-width="85"></div></div></div>
+                <div class="skill-item"><span class="skill-name">Content Strategy</span><span class="skill-pct" data-pct="90">0%</span><div class="skill-bar"><div class="skill-fill" data-width="90"></div></div></div>
+                <div class="skill-item"><span class="skill-name">YouTube Strategy</span><span class="skill-pct" data-pct="82">0%</span><div class="skill-bar"><div class="skill-fill" data-width="82"></div></div></div>
+                <div class="skill-item"><span class="skill-name">Social Media Strategy</span><span class="skill-pct" data-pct="82">0%</span><div class="skill-bar"><div class="skill-fill" data-width="82"></div></div></div>
+            </div>
+        </div>
+        <!-- Tools -->
+        <div class="skill-card anim-skill-wave" style="--wave-delay: 0.5s">
+            <div class="skill-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <h3>Tools</h3>
+            <div class="skill-bar-group">
+                <div class="skill-item"><span class="skill-name">ClickUp / Trello</span><span class="skill-pct" data-pct="85">0%</span><div class="skill-bar"><div class="skill-fill" data-width="85"></div></div></div>
+                <div class="skill-item"><span class="skill-name">Firebase / Google Analytics</span><span class="skill-pct" data-pct="88">0%</span><div class="skill-bar"><div class="skill-fill" data-width="88"></div></div></div>
+                <div class="skill-item"><span class="skill-name">OneSignal</span><span class="skill-pct" data-pct="85">0%</span><div class="skill-bar"><div class="skill-fill" data-width="85"></div></div></div>
+                <div class="skill-item"><span class="skill-name">Slack / CMS Platforms</span><span class="skill-pct" data-pct="85">0%</span><div class="skill-bar"><div class="skill-fill" data-width="85"></div></div></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════
+     PAGE 7 — ACHIEVEMENTS
+     ══════════════════════════════════════════════════════════════ -->
+<section id="achievements" class="achievements-section">
+    <div class="section-header">
+        <span class="section-tag">Milestones</span>
+        <h2 class="section-title">Achievements &amp; Recognition</h2>
+        <p class="section-subtitle">Milestones from 5+ years of building digital products that reach millions of users.</p>
+    </div>
+
+    <!-- Stat counters -->
+    <div class="stats-row">
+        <div class="stat-counter">
+            <span class="stat-number" data-target="5">0</span><span class="stat-plus">+</span>
+            <p>Years Experience</p>
+        </div>
+        <div class="stat-counter">
+            <span class="stat-number" data-target="6.5" data-decimal="true">0</span><span class="stat-plus">M+ Users Reached</span>
+            <p>VAS Portfolio</p>
+        </div>
+        <div class="stat-counter">
+            <span class="stat-number" data-target="6">0</span><span class="stat-plus">+</span>
+            <p>Products Shipped (OTT &amp; AI)</p>
+        </div>
+        <div class="stat-counter">
+            <span class="stat-number" data-target="20">0</span><span class="stat-plus">+</span>
+            <p>Team Members Led</p>
+        </div>
+    </div>
+
+    <div class="achievements-grid">
+        <!-- Achievement 1 -->
+        <div class="achievement-card anim-achieve-zoom">
+            <div class="achieve-badge-row">
+                <span class="achieve-category">Professional</span>
+                <span class="achieve-year">2026</span>
+            </div>
+            <div class="achieve-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 21h8M12 17v4"/><path d="M7 4h10l1 8a6 6 0 01-12 0l1-8z"/><path d="M5 4h14"/></svg>
+            </div>
+            <h3>Promotion to Project Head</h3>
+            <p class="achieve-institution">Lafz Digital</p>
+            <p class="achieve-desc">Promoted into a leadership position with expanded ownership of product strategy, digital operations, content, and cross-functional team management.</p>
+        </div>
+
+        <!-- Achievement 2 -->
+        <div class="achievement-card anim-achieve-zoom">
+            <div class="achieve-badge-row">
+                <span class="achieve-category">Professional</span>
+                <span class="achieve-year">2026</span>
+            </div>
+            <div class="achieve-icon-wrap">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
+            </div>
+            <h3>Social Media Growth — Lafz</h3>
+            <p class="achieve-institution">Lafz Digital</p>
+            <table class="achieve-table">
+                <thead>
+                    <tr><th>Platform</th><th>Followers (8 mo)</th><th>Views (90 days)</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="platform-icon">📷</span> Instagram</td>
+                        <td>144K</td>
+                        <td>78,327,951</td>
+                    </tr>
+                    <tr>
+                        <td><span class="platform-icon">📘</span> Facebook</td>
+                        <td>38K</td>
+                        <td>8,481,011</td>
+                    </tr>
+                    <tr>
+                        <td><span class="platform-icon">▶️</span> YouTube</td>
+                        <td>6,758</td>
+                        <td>6.2 Million</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════
+     PAGE 8 — CONTACT
+     ══════════════════════════════════════════════════════════════ -->
+<section id="contact" class="contact-section">
+    <div class="section-header">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Let's Talk</h2>
+    </div>
+    <div class="contact-grid">
+        <!-- Left: Form -->
+        <div class="contact-form-card anim-contact-left">
+            <h3>Send Me a Message</h3>
+            <form id="contactForm" action="https://formsubmit.co/nisar.maryam.97@gmail.com" method="POST">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="#">
+                <div class="form-group">
+                    <input type="text" name="name" id="formName" required autocomplete="name">
+                    <label for="formName">Full Name</label>
+                    <span class="form-line"></span>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" id="formEmail" required autocomplete="email">
+                    <label for="formEmail">Email Address</label>
+                    <span class="form-line"></span>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="_subject" id="formSubject" required>
+                    <label for="formSubject">Subject</label>
+                    <span class="form-line"></span>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" id="formMessage" rows="5" required></textarea>
+                    <label for="formMessage">Message</label>
+                    <span class="form-line"></span>
+                </div>
+                <button type="submit" class="btn btn-primary btn-send">
+                    <span>Send Message</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+                </button>
+            </form>
+        </div>
+        <!-- Right: Info -->
+        <div class="contact-info-panel anim-contact-right">
+            <h3>Contact Information</h3>
+            <p class="contact-info-sub">Feel free to reach out. I'm always open to discussing product strategy, digital growth, or new opportunities.</p>
+            <div class="contact-rows">
+                <a href="mailto:nisar.maryam.97@gmail.com" class="contact-row">
+                    <div class="contact-row-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+                    </div>
+                    <div>
+                        <span class="contact-label">Email</span>
+                        <span class="contact-value">nisar.maryam.97@gmail.com</span>
+                    </div>
+                </a>
+                <a href="tel:+923495070400" class="contact-row">
+                    <div class="contact-row-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+                    </div>
+                    <div>
+                        <span class="contact-label">Phone</span>
+                        <span class="contact-value">+92 349 5070400</span>
+                    </div>
+                </a>
+                <div class="contact-row">
+                    <div class="contact-row-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    </div>
+                    <div>
+                        <span class="contact-label">Location</span>
+                        <span class="contact-value">Islamabad, Pakistan</span>
+                    </div>
+                </div>
+                <a href="https://linkedin.com/in/maryam-nisar" target="_blank" rel="noopener" class="contact-row">
+                    <div class="contact-row-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    </div>
+                    <div>
+                        <span class="contact-label">LinkedIn</span>
+                        <span class="contact-value">maryam-nisar</span>
+                    </div>
+                </a>
+                <a href="https://github.com/mnisar2010" target="_blank" rel="noopener" class="contact-row">
+                    <div class="contact-row-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                    </div>
+                    <div>
+                        <span class="contact-label">GitHub</span>
+                        <span class="contact-value">mnisar2010</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════
+     FOOTER
+     ══════════════════════════════════════════════════════════════ -->
+<footer class="site-footer">
+    <div class="footer-inner">
+        <a href="#landing" class="footer-logo">MN</a>
+        <h4>Maryam Nisar</h4>
+        <p class="footer-tagline">Building digital products at the intersection of people, technology, and creativity.</p>
+        <div class="footer-socials">
+            <a href="https://github.com/mnisar2010" target="_blank" rel="noopener" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            </a>
+            <a href="https://linkedin.com/in/maryam-nisar" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a href="mailto:nisar.maryam.97@gmail.com" aria-label="Email">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            </a>
+        </div>
+        <p class="footer-copy">&copy; 2026 Maryam Nisar. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
